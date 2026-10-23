@@ -1,0 +1,23 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.frameless.panel'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId 'com.frameless.panel'
+        minSdk 26
+        targetSdk 33
+        versionCode 2
+        versionName '1.1'
+    }
+    buildTypes {
+        release { minifyEnabled false }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
