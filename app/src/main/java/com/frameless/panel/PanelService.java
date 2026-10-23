@@ -543,5 +543,5 @@ public class PanelService extends Service {
 
         // panel settings: side / size / opacity (saved, applied instantly)
         settingsRow = row();
-        settingsRow.addView(settingChip(Prefs.sideLabel(this), 0), cell(28, true));
+        settingsRow.addView(settingChip(Prefs.sideLabel(this), 0), ....
         settingsRow.addView(settingChip(Pref
